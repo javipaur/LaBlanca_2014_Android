@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/headermachete" />
+    <TabHost android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TabWidget android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@android:id/tabs" />
+
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@android:id/tabcontent" >
+
+                <LinearLayout android:id="@+id/tab1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scrollView" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:id="@+id/T1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Trikitilaris de la Academia Municipal de Folklore"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="13:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Amets Arzallus y Andoni Egaña. Presenta: Josu Goikoetxea"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="19:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Concierto Txistularis. Asociación de Txistularis, Academia Municipal de Folklore
+e Indarra Dantza Taldea."
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="20:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Larrain Dantza y Txulalai con los Gaiteros de la Academia Municipal de Folklore"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:00"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anne Etchegoyen &amp; Aizkoa Abesbatza"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T190"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="01:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T100"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Euskaraokea eta Djak."
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scrollView1" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:id="@+id/T13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Trikitilaris de la Academia Municipal de Folklore"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="13:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Irati Anda, Odei Barroso, Jagoba Apaolaza y Jon Maia. Presenta: Olatz Santocildes"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="19:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ortzadar. Dantza Taldea"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T199"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="20:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Larrain Dantza y Txulalai con los Gaiteros de la Academia Municipal de Folklore"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:00"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hesian"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/T1900"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="01:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T1000"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Euskaraokea eta Djak."
+                                android:textSize="20sp" />
+
+
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scrollView2" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:id="@+id/Ts13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Ts14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Trikitilaris de la Academia Municipal de Folklore"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Ts15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="13:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Ts16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Oihane Perea, Etxahun Lekue, Ander Solozabal y Unai Iturriaga. Presenta: Maialen Kortabarria"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Ts17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="19:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Ts18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Gaiteros de Elciego &amp; Friends. Presentador: Gorka Aginagalde"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Ts199"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="20:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Ts20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Larrain Dantza y Txulalai con los Gaiteros de la Academia Municipal de Folklore"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Tss21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:00"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Ts22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Zea Mays"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Ts1090"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="01:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Ts1000"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Euskaraokea eta Djak."
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab4"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scrolleView2" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:id="@+id/Te13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T1r4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Trikitilaris de la Academia Municipal de Folklore"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Tr15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="13:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/tT16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Felipe Zelaieta, Iratxe Ibarra, Iñaki Viñaspre y Beñat Gaztelumendi. Presenta: Beñat Garaio"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Tt17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="19:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Tt18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Xabi Aburruzaga"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/Tt199"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="20:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T2t0"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Larrain Dantza y Txulalai con los Gaiteros de la Academia Municipal de Folklore "
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/tT21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:00"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Tr22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Txuma Murugarren &amp; Angel Unzu "
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/tT190"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="01:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/T1r00"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Euskaraokea eta Djak."
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab5"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sdcrollView2" >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:id="@+id/Tte13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="12:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/eT14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Trikitilaris de la Academia Municipal de Folklore"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/eT15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="13:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Te16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Xabi Igoa, Ruben Sanchez, Maialen Lujanbio y Eneko Fernández. Presenta: Idoia Beitia"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/eT17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="19:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/eT18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dantza Plazan. Academia Municipal de Folklore"                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/eT199"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="20:30"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/Te20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Larrain Dantza y Txulalai con los Gaiteros de la Academia Municipal de Folklore"
+                                android:textSize="20sp" />
+
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

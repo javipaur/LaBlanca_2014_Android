@@ -1,0 +1,2885 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/headermargolari" />
+
+    <TabHost android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:scrollbars="none"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalScrollView" >
+
+                <TabWidget android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:id="@android:id/tabs" />
+            </HorizontalScrollView>
+
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@android:id/tabcontent" >
+
+                <LinearLayout android:id="@+id/tab1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/scrollView6" >
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+                            <TextView
+                                android:id="@+id/TW9yy01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="08:00"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/verde"/>
+
+                            <TextView
+                                android:id="@+id/TW9yyiuuu02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text=" Santa Misa - Iglesia de San Miguel"
+                                android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+                                    <TextView
+                                        android:id="@+id/teiiixtView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="07:50"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textColor="@color/red" />
+
+                                    <TextView
+                                        android:id="@+id/texootView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginLeft="10px"
+                                        android:layout_height="wrap_content"
+                                        android:text=" Quedamos en la estatua de Celedón"
+                                        android:textSize="20sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TW90o1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="09:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TW9hj02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Dianas - Plaza Nueva"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+                                    <TextView
+                                        android:id="@+id/tebbxtView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="08:50"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textColor="@color/red" />
+
+                                    <TextView
+                                        android:id="@+id/textnnView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginLeft="10px"
+                                        android:layout_height="wrap_content"
+                                        android:text=" Quedamos en el monumento a la Batalla"
+                                        android:textSize="20sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TWyybb901"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="09:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TnnnW902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Visita Cementerio de Santa Isabel"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+                                    <TextView
+                                        android:id="@+id/textViewk"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text=""
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textColor="@color/red" />
+
+                                    <TextView
+                                        android:id="@+id/textViewj2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginLeft="10px"
+                                        android:layout_height="wrap_content"
+                                        android:text="(Representacion G.Margolariak)"
+                                        android:textSize="20sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TjW901"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TjhhhW902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Carrera de burros – Plaza Virgen Blanca"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+                                    <TextView
+                                        android:id="@+id/tjjjjextView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="09:45"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textColor="@color/red" />
+
+                                    <TextView
+                                        android:id="@+id/texjjjtView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginLeft="10px"
+                                        android:layout_height="wrap_content"
+                                        android:text="Quedamos en Bar Deportivo Alavés"
+                                        android:textSize="20sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TW9c01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="11:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TWv902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Almuerzo – Plaza Celedones de Oro"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TWbb901"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="12:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TWjj902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Herri kirolak – Plaza Fueros"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+                                    <TextView
+                                        android:id="@+id/tggyextView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="11:50"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textColor="@color/red" />
+
+                                    <TextView
+                                        android:id="@+id/tefffgxtView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginLeft="10px"
+                                        android:layout_height="wrap_content"
+                                        android:text=" Korrikalaris y sokatiradores margolaris. Quedamos en Bar la Sureña"
+                                        android:textSize="20sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TWuuu901"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="13:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TWiii902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Música - Quiosco de la Florida"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TWooo901"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TWppp902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Comida – NH Canciller Ayala"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TWpp901"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="17:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TWbbbu902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Ida toros (13/24 detrás de Okerrak)"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+                                    <TextView
+                                        android:id="@+id/textViiiuiew"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="17:00"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textColor="@color/red" />
+
+                                    <TextView
+                                        android:id="@+id/textVoooiiuew2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginLeft="10px"
+                                        android:layout_height="wrap_content"
+                                        android:text=" Quedamos Salón de Juegos (Plaza Fueros) – Foto grupo"
+                                        android:textSize="20sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TWppp901"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="18:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TWppppo902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Margolariaren Jokuak – Plaza Green Capital"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TWiuuu901"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="20:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TW9oooo02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Vuelta toros (Independencia 5/12 detrás de Luken)"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_marginLeft="35px"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+                                    <TextView
+                                        android:id="@+id/textVuiu09iew"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="20:15"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textColor="@color/red" />
+
+                                    <TextView
+                                        android:id="@+id/textVie8007w2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginLeft="10px"
+                                        android:layout_height="wrap_content"
+                                        android:text=" Quedamos Esquina Pio XII con Florida"
+                                        android:textSize="20sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TW9088888871"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="22:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TW9999802"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="20sp"
+                                    android:text=" Cena + Ambiente + Photocall - Plaza Burullerías (frente al Portalón)" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/scrollView55" >
+
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TW9zzz01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="11:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TWjjjj902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Almuerzo – Plaza Celedones de Oro"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TWfff1901"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="12:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TW902ooo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Ofrenda floral - Escalinatas de San Miguel"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TW90iii1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="12:45"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TW9yyy02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Foto familia - Escalinatas de San Miguel"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TW90tttt1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="13:15"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TW90yyyy2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Homenaje Ikurriña - Plaza Nueva"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+                                <TextView
+                                    android:id="@+id/TW9uuuu01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde"/>
+
+                                <TextView
+                                    android:id="@+id/TWooo902"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Comida – Comes Gamarra"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent">
+
+                                    <TextView
+                                        android:id="@+id/tehxtView"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="14:00"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textColor="@color/red" />
+
+                                    <TextView
+                                        android:id="@+id/textgView2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginLeft="10px"
+                                        android:layout_height="wrap_content"
+                                        android:text="Recogida ida de autobús: Esquina de La Paz con Olaguíbel"
+                                        android:textSize="20sp" />
+
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent">
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout">
+
+                                        <TextView
+                                            android:id="@+id/textView5"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="16:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/red" />
+
+                                        <TextView
+                                            android:id="@+id/textView6"
+                                            android:layout_width="wrap_content"
+                                            android:layout_marginLeft="10px"
+                                            android:layout_height="wrap_content"
+                                            android:text="Recogida vuelta de autobús: Parking Piscinas de Gamarra (Eskalmendi)"
+                                            android:textSize="20sp" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+
+
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout4">
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="17:15"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Ida toros (24/24 detrás de Gasteiztarrak) "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="fill_parent"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="fill_parent" >
+
+                                    <TextView
+                                        android:id="@+id/textView7"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="17:15"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textColor="@color/red" />
+
+                                    <TextView
+                                        android:id="@+id/textView8"
+                                        android:layout_width="wrap_content"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="20sp"
+                                        android:text=" Quedamos Salón de Juegos (Plaza Fueros) – Foto grupo " />
+                                </LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout2">
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="18:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Txapeldunen Liga – Plaza Green Capital "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout5" >
+
+                                <TextView
+                                    android:id="@+id/textView13"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="20:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Vuelta toros (Dato 3/12 detrás de Txinpartak) "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_marginLeft="35px"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout6">
+
+                                <TextView
+                                    android:id="@+id/textView15"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="20:15"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/red" />
+
+                                <TextView
+                                    android:id="@+id/textView16"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="10px"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:text=" Quedamos Esquina Pio XII con Florida " />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout78" >
+
+                                <TextView
+                                    android:id="@+id/textView149"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="22:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView150"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Cena –  Fuente del Palacio de Justicia con calle Lascaray "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout7" >
+
+                                <TextView
+                                    android:id="@+id/textView17"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="23:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView18"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Kubateo – Jardines Fernández de Piérola (Concierto Butterfly Kollektiv)  "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout8" >
+
+                                <TextView
+                                    android:id="@+id/textView19"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="00:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView20"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Kubateo – Calle Prado"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout9" >
+
+                                <TextView
+                                    android:id="@+id/textView21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="01:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Kubateo por La Cuesta – Mateo Moraza "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_marginLeft="35px"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout10">
+
+                                <TextView
+                                    android:id="@+id/textView23"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="01:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/red" />
+
+                                <TextView
+                                    android:id="@+id/textView24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="10px"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:text=" Quedamos en el Bar Malquerida " />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout11" >
+
+                                <TextView
+                                    android:id="@+id/textView25"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="02:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView26"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Kubateo por Calle San Francisco "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_marginLeft="35px"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout12" >
+
+                                <TextView
+                                    android:id="@+id/textView27"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="02:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/red" />
+
+                                <TextView
+                                    android:id="@+id/textView28"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="10px"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:text=" Quedamos en Arrantza Taberna " />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout13" >
+
+                                <TextView
+                                    android:id="@+id/textView29"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="03:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView30"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Se recomienda Retirada a Tiempo para descansar  "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/scrollView" >
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout14" >
+
+                                <TextView
+                                    android:id="@+id/textView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="11:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Visita residencia Txagorritxu + Almuerzo "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_marginLeft="35px"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout15" >
+
+                                <TextView
+                                    android:id="@+id/textView31"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="11:20"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/red" />
+
+                                <TextView
+                                    android:id="@+id/textView32"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="35px"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:text=" Quedamos entrada Residencia Txagorritxu (Calle Méjico 11)  " />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout16" >
+
+                                <TextView
+                                    android:id="@+id/textView33"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="13:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView34"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Poteo - Calle Abendaño (Barrio San Martín)"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout17" >
+
+                                <TextView
+                                    android:id="@+id/textView35"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView36"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Comida – NH Canciller Ayala "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_marginLeft="35px"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout18" >
+
+                                <TextView
+                                    android:id="@+id/textView37"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="14:15"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/red" />
+
+                                <TextView
+                                    android:id="@+id/textView38"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="10px"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:text=" Quedamos en quiosco de la Florida " />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout19" >
+
+                                <TextView
+                                    android:id="@+id/textView39"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="17:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView40"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Ida toros (19/25 detrás de Txinpartak) "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_marginLeft="35px"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout20" >
+
+                                <TextView
+                                    android:id="@+id/textView41"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="17:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/red" />
+
+                                <TextView
+                                    android:id="@+id/textView42"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="10px"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:text=" Quedamos Salón de Juegos (Plaza Fueros) – Foto grupo " />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout21" >
+
+                                <TextView
+                                    android:id="@+id/textView43"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="18:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView44"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Margolinpiadak - Plaza del Renacimiento (Frente a la Plaza de Toros) "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout22" >
+
+                                <TextView
+                                    android:id="@+id/textView45"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="20:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView46"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Vuelta toros (Independencia 1/12) "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_marginLeft="35px"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout23" >
+
+                                <TextView
+                                    android:id="@+id/textView47"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="20:15"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/red" />
+
+                                <TextView
+                                    android:id="@+id/textView48"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="10px"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:text=" Quedamos Esquina Pio XII con Florida " />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout24" >
+
+                                <TextView
+                                    android:id="@+id/textView49"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="21:15"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView50"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Poteo – Cuesta San Francisco con Mateo Moraza "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout25" >
+
+                                <TextView
+                                    android:id="@+id/textView51"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="22:30"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView52"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Cena – Plaza de las Desamparadas "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout26" >
+
+                                <TextView
+                                    android:id="@+id/textView53"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="00:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView54"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Kubateo por Nueva Fuera (Hotel-Bar Desiderio) "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout27" >
+
+                                <TextView
+                                    android:id="@+id/textView55"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="02:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView56"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Kubateo por Kutxi "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_marginLeft="35px"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout28" >
+
+                                <TextView
+                                    android:id="@+id/textView57"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="02:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/red" />
+
+                                <TextView
+                                    android:id="@+id/textView58"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="10px"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="20sp"
+                                    android:text=" Quedamos en Taberna Suso " />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/linearLayout29" >
+
+                                <TextView
+                                    android:id="@+id/textView59"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="03:00"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textColor="@color/verde" />
+
+                                <TextView
+                                    android:id="@+id/textView60"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text=" Se recomienda Retirada a Tiempo para descansar "
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab4"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <ScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/scrollView111" >
+
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent">
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout32" >
+
+                                        <TextView
+                                            android:id="@+id/textView63"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="11:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView64"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Misa Celedón Txiki - Iglesia San Miguel "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout30" >
+
+                                        <TextView
+                                            android:id="@+id/texhhtView"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="10:45"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/red" />
+
+                                        <TextView
+                                            android:id="@+id/texfctView2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_marginLeft="10px"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="20sp"
+                                            android:text=" Quedamos en la estatua de Celedón  " />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout31" >
+
+                                        <TextView
+                                            android:id="@+id/textView61"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="13:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView62"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Bajada Celedón Txiki "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout33" >
+
+                                        <TextView
+                                            android:id="@+id/textView65"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="12:45"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/red" />
+
+                                        <TextView
+                                            android:id="@+id/textView66"
+                                            android:layout_width="wrap_content"
+                                            android:layout_marginLeft="10px"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="20sp"
+                                            android:text=" Quedamos en el monumento a la Batalla " />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout34" >
+
+                                        <TextView
+                                            android:id="@+id/textView67"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="17:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView68"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Ida toros (19/24 detrás de Bereziak) "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout35" >
+
+                                        <TextView
+                                            android:id="@+id/textView69"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="17:15"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/red" />
+
+                                        <TextView
+                                            android:id="@+id/textView70"
+                                            android:layout_width="wrap_content"
+                                            android:layout_marginLeft="10px"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="20sp"
+                                            android:text=" Quedamos Salón de Juegos (Plaza Fueros) – Foto grupo " />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/lginearLvayout34" >
+
+                                        <TextView
+                                            android:id="@+id/tedddxggtView67"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="18:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/tehhhxtView68"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Bingolari–Plaza del Renacimiento(Frente a la Plaza de Toros) "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+
+
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout37" >
+
+                                        <TextView
+                                            android:id="@+id/teffxtView59"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="20:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/tgextView60"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Vuelta toros (Dato 5/12 detrás de Belakiak) "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linegarLayout29" >
+
+                                        <TextView
+                                            android:id="@+id/textView75"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="20:15"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/red" />
+
+                                        <TextView
+                                            android:id="@+id/textView76"
+                                            android:layout_width="wrap_content"
+                                            android:layout_marginLeft="10px"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="20sp"
+                                            android:text=" Quedamos Salón de Juegos (Plaza Fueros) – Foto grupo " />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout38" >
+
+                                        <TextView
+                                            android:id="@+id/textView73"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="22:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView74"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Karaoke + cena perritos calientes + degustación zurracapote - Jardines Fernández de Piérola  "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout3" >
+
+                                        <TextView
+                                            android:id="@+id/textView3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="01:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Kubateo por La Cuesta – Mateo Moraza "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout36" >
+
+                                        <TextView
+                                            android:id="@+id/textView71"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="01:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/red" />
+
+                                        <TextView
+                                            android:id="@+id/textView72"
+                                            android:layout_width="wrap_content"
+                                            android:layout_marginLeft="10px"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="20sp"
+                                            android:text=" Quedamos en el Bar Zabala " />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout39" >
+
+                                        <TextView
+                                            android:id="@+id/textView77"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="02:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView78"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Kubateo por La Pinto "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout40" >
+
+                                        <TextView
+                                            android:id="@+id/textView79"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="02:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/red" />
+
+                                        <TextView
+                                            android:id="@+id/textView80"
+                                            android:layout_width="wrap_content"
+                                            android:layout_marginLeft="10px"
+                                            android:layout_height="wrap_content"
+                                            android:textSize="20sp"
+                                            android:text=" Quedamos en Bar Barrón " />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout41" >
+
+                                        <TextView
+                                            android:id="@+id/textView81"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="03:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView82"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Se recomienda Retirada a Tiempo para descansar "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                            </ScrollView>
+
+                        </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab5"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <ScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/scgrollView" >
+
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent">
+
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout42" >
+
+                                        <TextView
+                                            android:id="@+id/textView83"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="10:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView84"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" XXI Concurso Gastronómico - Plaza Nueva "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout43">
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView85"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text=""
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView86"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" (Representacion G.Margolariak)"
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout44">
+
+                                        <TextView
+                                            android:id="@+id/TgW901"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="11:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/TfW902"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Taller de pintura infantil - Plaza Virgen Blanca"
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout45">
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView87"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="10:30"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView88"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos en el monumento a la Batalla "
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout46" >
+
+                                        <TextView
+                                            android:id="@+id/textView89"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="12:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView90"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Poteo – Esquina Fueros con Portal del Rey "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout47" >
+
+                                        <TextView
+                                            android:id="@+id/textView91"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="14:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView92"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Comida – Silver Deluxe "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout48" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView93"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="13:30"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView94"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos en Plaza Celedones de Oro "
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout49" >
+
+                                        <TextView
+                                            android:id="@+id/textView95"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="17:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView96"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Ida toros (1/24) "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout50" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView97"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="16:30"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView98"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos Salón de Juegos (Plaza Fueros) – Foto grupo "
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout51" >
+
+                                        <TextView
+                                            android:id="@+id/textView99"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="18:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView100"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Concurso txarangas - Plaza del Arca"
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout52" >
+
+                                        <TextView
+                                            android:id="@+id/textView101"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="20:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView102"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Vuelta toros (Independencia 12/12 detrás de Batasuna) "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout53" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView103"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="20:30"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView104"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos Esquina Pio XII con Florida "
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout54" >
+
+                                        <TextView
+                                            android:id="@+id/textView105"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="22:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView106"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Cena – Plaza Amárica  "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout55" >
+
+                                        <TextView
+                                            android:id="@+id/textView107"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="23:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView108"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Kubateo por Calle San Antonio "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout56" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView109"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="23:30"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView110"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos en Bar Tribeca "
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout57" >
+
+                                        <TextView
+                                            android:id="@+id/textView111"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="01:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView112"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Kubateo por Calle San Prudencio"
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout58" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView113"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="01:00"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView114"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos en Plaza del Arca "
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout59" >
+
+                                        <TextView
+                                            android:id="@+id/textView115"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="02:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView116"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Txosnak (Concierto Ze esatek!) "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout60" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView117"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="01:45"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView118"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Entrada facultad de Farmacia "
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout61" >
+
+                                        <TextView
+                                            android:id="@+id/textView119"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="04:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView120"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Se recomienda Retirada a Tiempo para descansar "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                            </ScrollView>
+
+                        </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab6"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <ScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/scrohllView" >
+
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent">
+
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="58dp"
+                                        android:id="@+id/linearLayout65" >
+
+                                        <TextView
+                                            android:id="@+id/textView123"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="17:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView124"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text="  Ida toros (10/24 detrás de Petralak) "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout66" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView125"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="17:00"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView126"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos Salón de Juegos (Plaza Fueros) – Foto grupo"
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout62">
+
+                                        <TextView
+                                            android:id="@+id/TW901"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="18:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/TW902"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Barracas "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="vertical"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout64">
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textgView"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="18:00"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textVfigew2"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Recogida ida de autobús: Iglesia San Cristóbal "
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:orientation="vertical"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent" >
+
+                                            <LinearLayout
+                                                android:orientation="horizontal"
+                                                android:layout_width="fill_parent"
+                                                android:layout_marginLeft="35px"
+                                                android:layout_height="fill_parent"
+                                                android:id="@+id/linearLayout63" >
+
+                                                <TextView
+                                                    android:id="@+id/textView121"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="19:30"
+                                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                                    android:textColor="@color/red" />
+
+                                                <TextView
+                                                    android:id="@+id/textView122"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_marginLeft="10px"
+                                                    android:layout_height="wrap_content"
+                                                    android:text=" Recogida vuelta de autobús: Entrada recinto ferial Mendizabala "
+                                                    android:textSize="20sp" />
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout67" >
+
+                                        <TextView
+                                            android:id="@+id/textView127"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="20:30"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView128"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Vuelta toros (Dato 6/12 detrás de Nekazariak)"
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout68" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView129"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="20:15"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView130"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos Esquina Pio XII con Florida "
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout69" >
+
+                                        <TextView
+                                            android:id="@+id/textView131"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="22:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView132"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Cena de gala - NH Canciller Ayala "
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout70" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView133"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="20:15"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView134"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos en el Quiosco de la Florida"
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout73" >
+
+                                        <TextView
+                                            android:id="@+id/textView139"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="01:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView140"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Subida Celedon -Plaza Virgen Blanca"
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout72" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView137"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="00:30"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView138"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos en la Plaza General Loma"
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout71" >
+
+                                        <TextView
+                                            android:id="@+id/textView135"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="01:15"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView136"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Aurresku de despedida - Hornacina de la Virgen Blanca"
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout74" >
+
+                                        <TextView
+                                            android:id="@+id/textView141"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="01:45"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView142"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Kubateo por Zapa"
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout75" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView143"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="01:45"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView144"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos en Cómeme"
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout76" >
+
+                                        <TextView
+                                            android:id="@+id/textView145"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="08:00"
+                                            android:textAppearance="?android:attr/textAppearanceLarge"
+                                            android:textColor="@color/verde" />
+
+                                        <TextView
+                                            android:id="@+id/textView146"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:text=" Desayuno para Valientes"
+                                            android:textSize="20sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="fill_parent"
+                                        android:layout_marginLeft="35px"
+                                        android:layout_height="fill_parent"
+                                        android:id="@+id/linearLayout77" >
+
+                                        <LinearLayout
+                                            android:orientation="horizontal"
+                                            android:layout_width="fill_parent"
+                                            android:layout_marginLeft="35px"
+                                            android:layout_height="fill_parent" >
+
+                                            <TextView
+                                                android:id="@+id/textView147"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="08:00"
+                                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                                android:textColor="@color/red" />
+
+                                            <TextView
+                                                android:id="@+id/textView148"
+                                                android:layout_width="wrap_content"
+                                                android:layout_marginLeft="10px"
+                                                android:layout_height="wrap_content"
+                                                android:text=" Quedamos en el Bar Mentirón"
+                                                android:textSize="20sp" />
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+                            </ScrollView>
+
+                </LinearLayout>
+
+    </FrameLayout>
+
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>
